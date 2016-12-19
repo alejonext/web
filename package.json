@@ -37,7 +37,8 @@
     ]
   },
   "devDependencies": {
-    "babel-preset-stage-2": "^6.18.0"
+    "babel-preset-stage-2": "^6.18.0",
+    "gulp-gh-pages": "^0.5.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

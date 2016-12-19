@@ -8,6 +8,7 @@ import buffer from 'vinyl-buffer';
 import pug from 'gulp-pug';
 import envify from 'envify/custom';
 import sass from 'gulp-compass';
+import ghPages from 'gulp-gh-pages';
 
 import PACK from './package.json';
 
@@ -86,6 +87,8 @@ gulp.task('template', () => gulp
 		.src(SRC.view)
   		.pipe(pug({ locals : DATA }))
 		.pipe(gulp.dest(DIST)));
+
+gulp.task('deploy', () => gulp.src( DIST + '/**/*').pipe(ghPages()));
 
 gulp.task('watch', () => {
 	gulp.watch(SRC.view, ['template']);
