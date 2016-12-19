@@ -5,8 +5,7 @@ import * as network  from './network';
 import 'angular-deckgrid';
 
 angular
-	.module(process.env.name, [ 
-		'ng',
+	.module(process.env.name, [
 		'akoenig.deckgrid',
 		require('angular-sanitize')
 	])
