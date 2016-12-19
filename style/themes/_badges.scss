@@ -1,0 +1,34 @@
+.#{$badge-class-name} {
+    @include border-radius(8em);
+    color: $white;
+   
+    &.#{$white-classname} {
+        background: $white;
+        color: $text-color;
+    }
+    &.#{$black-classname} {
+        background: $black;
+    }
+    &.#{$orange-classname} {
+        background: $orange;
+    }
+    &.#{$red-classname} {
+        background: $red;
+    }
+    &.#{$green-classname} {
+        background: $green;
+    }
+    &.#{$blue-classname} {
+        background: $blue;
+    }
+    &.#{$yellow-classname} {
+        background: $yellow;
+        color: $text-color;
+    }
+    &.#{$grey-classname} {
+        background: $grey-50;
+    }
+    & + .#{$badge-class-name} {
+        margin-left: .2em;
+    }
+}

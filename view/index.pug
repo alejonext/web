@@ -1,0 +1,25 @@
+doctype html
+html( ng-app=name, ng-controller="app as a" )
+	head
+		base( href= homepage )
+		title=title
+
+		meta( name="twitter:site", value=tuiter )
+		meta( name="twitter:url", value=homepage )
+		meta( name="twitter:title", value=title )
+
+		meta( property="og:url", content=homepage )
+		meta( property="og:site_name", content=title )
+		meta( property="og:title", content=title )
+
+		meta( content=description, name="description")
+		meta( property="og:description", content=description )
+		meta( property="og:content", content=description )
+
+		link(rel="stylesheet", type="text/css", href="style.css")
+		link(rel="stylesheet", type="text/css", href="grid.css")
+
+		script( src="lib.js" )
+		script( src="app.js" )
+
+	body.all-100.column-group( deckgrid, source="a.products", cardTemplate="card.html")

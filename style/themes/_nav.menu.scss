@@ -1,0 +1,18 @@
+// INK:NAVIGATION:MENU
+.#{$navigation-class-name} {
+    ul {
+       
+        &.menu {
+            // defines default theme
+            @include nav-menu();
+            // defines custom themes
+            &.#{$white-classname}     { @include nav-menu($white); }
+            &.#{$grey-classname}      { @include nav-menu($grey-15); }
+            &.#{$black-classname}     { @include nav-menu($grey-90); }
+            &.#{$blue-classname}      { @include nav-menu($blue); }
+            &.#{$green-classname}     { @include nav-menu($green); }
+            &.#{$orange-classname}    { @include nav-menu($orange); }
+            &.#{$red-classname}       { @include nav-menu($red); }
+        }
+    }
+}

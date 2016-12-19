@@ -1,0 +1,50 @@
+// IMPORT CONFIG FILES (THESE CONTAIN VARIABLE DEFINITIONS)
+@import "config/classnames";
+@import "config/common";
+@import "config/typography";
+@import "config/colors";
+@import "config/alerts";
+@import "config/buttons";
+@import "config/forms";
+@import "config/grid";
+@import "config/labels";
+@import "config/badges";
+@import "config/navigation";
+@import "config/tables";
+@import "config/images";
+@import "config/js";
+// IMPORT CONFIG FILES (THESE CONTAIN VARIABLE DEFINITIONS)
+@import "mixins/quick-start";
+@include generate-quick-start($grid-breakpoints);
+[deckgrid]::before {
+    font-size: 0;
+    visibility: hidden;
+}
+#topbar {
+	background-color : $black;
+	position : fixed;
+	bottom : 0;
+}
+.cover-background {
+	position: relative;
+	min-height: 300px;
+	opacity: 0.25;
+	transition: all 1s ease-out;
+	.me-show {
+		visibility: hidden;
+		position: absolute;
+		bottom: 2em;
+	}
+	&:hover {
+		opacity: 1;
+		.me-show {
+			visibility: visible;
+		}
+	}
+}
+.no-underline {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}

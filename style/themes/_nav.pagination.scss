@@ -1,0 +1,39 @@
+.#{$navigation-class-name} {
+   
+    ul {
+        &.pagination {
+           
+            @include nav-pagination();
+           
+            // defines default pagination themes
+            &.#{$white-classname}     { @include nav-pagination(null,$white); }
+            &.#{$grey-classname}      { @include nav-pagination(null,$grey-15 ); }
+            &.#{$black-classname}     { @include nav-pagination(null,$grey-90); }
+            &.#{$orange-classname}    { @include nav-pagination(null,$orange); }
+            &.#{$blue-classname}      { @include nav-pagination(null,$blue); }
+            &.#{$green-classname}     { @include nav-pagination(null,$green); }
+            &.#{$red-classname}       { @include nav-pagination(null,$red); }
+            // defines dotted pagination themes
+            &.dotted {
+                @include nav-pagination(dotted);
+                &.#{$black-classname}     { @include nav-pagination(dotted,$grey-90); }
+                &.#{$white-classname}     { @include nav-pagination(dotted,$white); }
+                &.#{$blue-classname}      { @include nav-pagination(dotted,desaturate($blue,10%)); }
+                &.#{$green-classname}     { @include nav-pagination(dotted,desaturate($green,10%)); }
+                &.#{$orange-classname}    { @include nav-pagination(dotted,desaturate($orange,10%)); }
+                &.#{$red-classname}       { @include nav-pagination(dotted,desaturate($red,10%)); }
+            }
+            // defines chevron pagination theme
+            &.chevron {
+                @include nav-pagination(chevron);
+                &.#{$black-classname}     { @include nav-pagination(chevron,$grey-90); }
+                &.#{$grey-classname}      { @include nav-pagination(chevron,$grey-15); }
+                &.#{$blue-classname}      { @include nav-pagination(chevron,desaturate($blue,10%)); }
+                &.#{$green-classname}     { @include nav-pagination(chevron,desaturate($green,10%)); }
+                &.#{$orange-classname}    { @include nav-pagination(chevron,desaturate($orange,10%)); }
+                &.#{$red-classname}       { @include nav-pagination(chevron,desaturate($red,10%)); }
+           
+            }
+        }
+    }
+}

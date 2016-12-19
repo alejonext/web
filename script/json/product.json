@@ -1,0 +1,142 @@
+[{
+	"name" : "AlejoNext",
+	"description" : "Desarrolador y Artista",
+	"principal" : "Website",
+	"links" : {
+		"twitter" : "http://twitter.com/alejonext",
+		"linkedin" : "https://co.linkedin.com/in/alejonext",
+		"github" : "https://github.com/alejonext"
+	}
+},{
+	"name" : "CacheWatch",
+	"description" : "Sistema para la captura de HTML generado",
+	"principal" : "Website",
+	"links" : {
+		"Website" : "http://cache.watch/",
+		"github" : "https://github.com/cachewatch"
+	}
+},{
+	"name" : "Sopa de letras",
+	"description" : "App mobil de sopa de letras",
+	"principal" : "android",
+	"links" : {
+		"android" : "https://play.google.com/store/apps/details?id=co.planext.sopitaDeLetras"
+	}
+},{
+	"name" : "Galeph",
+	"description" : "Web especializada en venta de derechos de autor",
+	"principal" : "github",
+	"links" : {
+		"github" : "https://github.com/galeph"
+	}
+},{
+	"name" : "Inlive Galeph",
+	"description" : "Web especializada en venta de derechos de autor",
+	"principal" : "Website",
+	"links" : {
+		"Website" : "http://galeph.github.io/landing",
+		"github" : "https://github.com/galeph/landing",
+		
+	}
+},{
+	"name" : "Iluminame",
+	"description" : "App para iluminar",
+	"principal" : "android",
+	"links" : {
+		"android" : "https://play.google.com/store/apps/details?id=co.planext.iluminame"
+	}
+},{
+	"name" : "Llamame cuando",
+	"description" : "Simulador de llamdas",
+	"principal" : "android",
+	"links" : {
+		"android" : "https://play.google.com/store/apps/details?id=co.planext.LlamameCuando"
+	}
+},{
+	"name" : "Noche de Galerias",
+	"description" : "¿Donde y Cuando habran exposiones?",
+	"principal" : "android",
+	"links" : {
+		"android" : "https://play.google.com/store/apps/details?id=co.planext.nocheDeGalerias",
+		"github" : "https://github.com/alejonext/nochedegalerias"
+	}
+},{
+	"name" : "npad",
+	"description" : "Sistema de realtime para hacer textos",
+	"principal" : "github",
+	"links" : {
+		"code" : "https://www.npmjs.com/package/netpad",
+		"github" : "https://github.com/alejonext/npad"
+	}
+},{
+	"name" : "ink.angular",
+	"description" : "Plugin para Ink.Sapo para angular",
+	"principal" : "github",
+	"links" : {
+		"code" : "https://www.npmjs.com/package/ink.angular",
+		"github" : "https://github.com/alejonext/ink.angular"
+	}
+},{
+	"name" : "coinbase-service",
+	"description" : "Plugin en NodeJs para CoinBase",
+	"principal" : "github",
+	"links" : {
+		"code" : "https://www.npmjs.com/package/coinbase-service",
+		"github" : "https://github.com/alejonext/coinbase-service"
+	}
+},{
+	"name" : "JadeRuble",
+	"description" : "Plugin para Eclipse (Aptana) para Jade",
+	"principal" : "github",
+	"links" : {
+		"github" : "https://github.com/alejonext/JadeRuble"
+	}
+},{
+	"name" : "mongoose-watch",
+	"description" : "Plugin de Mongoose para observar documentos",
+	"principal" : "github",
+	"links" : {
+		"code" : "http://cache.watch/",
+		"github" : "http://cache.watch/"
+	}
+},{
+	"name" : "humanquery",
+	"description" : "Metodo de busqueda para Mongoose",
+	"principal" : "github",
+	"links" : {
+		"code" : "http://cache.watch/",
+		"github" : "http://cache.watch/"
+	}
+},{
+	"name" : "nativescript-i18n",
+	"description" : "Metodo de traduccion para NativeScript",
+	"principal" : "github",
+	"links" : {
+		"code" : "http://cache.watch/",
+		"github" : "http://cache.watch/"
+	}
+},{
+	"name" : "BNext",
+	"description" : "Libreria basica hecha en Less",
+	"principal" : "github",
+	"links" : {
+		"code" : "http://cache.watch/",
+		"github" : "http://cache.watch/"
+	}
+},{
+	"name" : "gateway",
+	"description" : "Libreria para pagos en liena multiplataforma",
+	"principal" : "github",
+	"links" : {
+		"code" : "http://cache.watch/",
+		"github" : "http://cache.watch/"
+	}
+},{
+	"name" : "angular-doorbell",
+	"description" : "Metodo para el uso de DoorBell",
+	"principal" : "github",
+	"links" : {
+		"code" : "http://cache.watch/",
+		"github" : "http://cache.watch/"
+	}
+}]

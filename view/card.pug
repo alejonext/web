@@ -1,0 +1,7 @@
+.padding.cover-background.all-100.cover( ng-controller="item as i", ng-style="i.css(card.image)" )
+	a.no-underline( href="{{card.links[card.principal]}}" ): h2.no-margin {{card.name}}
+	p {{card.description}}
+
+	nav.ink-navigation.me-show
+		ul.pills.pagination.black
+			li( ng-repeat="(key, val) in card.links", network="key", url="val" )
